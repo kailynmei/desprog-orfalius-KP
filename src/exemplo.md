@@ -62,7 +62,7 @@ Total: $1 + 1 + 3 + 1 + 1 + 2 + 1 + 1 + 3 = 14$.
 
 O que você acabou de fazer tem nome: **força bruta** (ou busca ingênua). Imagine uma **janela** de tamanho $m$ posicionada sobre o texto, começando na posição 0. Em cada posição, compare a janela com o padrão, letra por letra, da esquerda para a direita, e **pare no primeiro par de letras diferentes**. Se chegar ao fim sem diferença, anote a posição. Depois, deslize a janela uma posição para a direita e repita, até a janela encostar no final do texto.
 
-Use as setas abaixo para acompanhar a execução no nosso exemplo. Verde é letra igual, vermelho é letra diferente.
+Use as setas abaixo para acompanhar a execução no nosso exemplo. O `i` marca onde a janela começa, o `j` marca a letra do padrão que está sendo comparada e o sinal entre as duas linhas mostra o resultado da comparação. Em vermelho ficam as letras que já casaram.
 
 :forca-bruta
 
